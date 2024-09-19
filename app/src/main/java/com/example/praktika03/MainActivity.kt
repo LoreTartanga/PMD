@@ -66,12 +66,13 @@ class MainActivity : AppCompatActivity() {
             }
             */
             //WHEN erabiliz
-            when (Lista.selectedItem.toString()) {
+           /* when (Lista.selectedItem.toString()) {
                 "sumar" -> ema = zenb1 + zenb2
                 "restar" -> ema = zenb1 - zenb2
                 "multiplicar" ->  ema = zenb1 * zenb2
                 "dividir" -> ema = zenb1 / zenb2
             }
+            */
             Emaitza.text=ema.toString()
         })
     }
